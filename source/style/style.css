@@ -1,0 +1,212 @@
+/* BODY */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.middle {
+    margin: 30px 0 50px 0;
+}
+
+#odstavec {
+    padding-left: 40px;
+}
+
+div{
+    display: block;
+}
+
+.tabl1
+{
+    background-color: rgb(248,249,250);
+    border: 1.5px solid;
+    border-color: rgba(0,0,0,0.25);
+    padding: 5px 5px 5px 5px;
+}
+
+.main-padding{
+   margin-left: 0px;
+}
+
+.border-main
+{
+    margin-top: 30px;
+}
+
+.border-main p{
+    padding-left: 25px;
+}
+
+.border-main h5{
+ padding-left: 10px;   
+    padding-top: 5px;
+}
+
+form {
+    display: block;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* Header Text */
+.header
+{
+    border: 10px;
+}
+
+.header h1 {
+    font-size: 70px;
+    font-weight: 100;
+    text-align: justify-all;
+}
+
+/* Bootstrap Buttons Align */
+.btns {
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.btns #logout{
+    float: right;
+    margin-right: 11%;
+}
+
+.btns #user_l{
+    float: right;
+    margin-right: 1% ;
+    margin-top: 5px;
+}
+
+#tlacitko {
+    margin-top: 10px;
+    width: 80%;
+}
+
+#tlacitko2 {
+    margin-top: 7px;
+    border: 1px solid darkgrey;
+    height: 5%;
+    outline:0;
+}
+
+#tlacitko2:focus {
+    box-shadow: 0 0 5px rgb(235, 230, 229);
+    border: 1px solid rgb(235, 230, 229);
+}
+
+.helpdesk {
+    margin: 40px;
+}
+
+.helpdesk th, .helpdesk td {
+    text-align: center;
+    width: 15%;
+}
+
+.tema {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.tema span {
+    margin: 30px;
+    font-size: 16px;
+}
+
+.tema h2 {
+    margin: 30px;
+}
+
+.koment {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#koment_div button {
+    margin-bottom: 50px;
+}
+
+.koment p {
+    margin-top: 10px;
+}
+
+#pridat_k {
+    width: 50%;
+    height: 10%;
+}
+
+#x {
+    margin-left: 10px;
+}
+
+/* Form CSS */
+.form-zalozeni {
+    background-color: rgba(0, 0, 0, 0.10);
+    font-size: 16px;
+    padding: 30px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+#username, #password {
+    width: 80%;
+    padding: 7px;
+    margin: 7px 0;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+}
+
+#username:focus, #password:focus, textarea:focus {
+    box-shadow: 0 0 5px rgb(236, 57, 33);
+    border: 1px solid rgb(236, 57, 33);
+}
+
+h2{
+    margin-left: 5%;
+}
+
+.btn-odeslat{
+    float: right;
+    margin-right: 9.4%;
+    width: 10%;
+}
+
+.inp input, select
+{
+    width: 60%;
+    height: 5%;
+}
+
+.fa-times {
+    color: black;
+}
+
+/* Footer Part */
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: rgba(0,0,0, 0.25);
+    text-align: center;
+}
