@@ -8,7 +8,6 @@ $r = mysqli_fetch_assoc($result);
 $sql_role = "SELECT * FROM role";
 $result_role = mysqli_query($connection, $sql_role);
 
-
 if(isset($_POST['userid'])){
 $sql_update = "UPDATE users SET username = '".$_POST['username']."', jmeno = '".$_POST['jmeno']."', prijmeni = '".$_POST['prijmeni']."', email = '".$_POST['email']."', role = '".$_POST['select_role']."' WHERE userid = '".$_POST['userid']."' ";
 $result_update = mysqli_query($connection, $sql_update);
