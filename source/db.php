@@ -1,4 +1,6 @@
-<?php                                                                                  
-$connection = mysqli_connect("localhost", "iskako01", "Tis*658204", "iskako01");
- mysqli_set_charset($connection , "utf8");
+<?php
+$connection = new mysqli('sql202.epizy.com','epiz_30476780','VRTMnLsFbo7o','epiz_30476780_logospolytechnikos');
+
+mysqli_set_charset($connection , "utf8");
+
 ?>
